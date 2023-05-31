@@ -1508,7 +1508,7 @@ int main(int argc, char **argv)
 
 ## Output:
 ## kernel reduceUnrolling8
-
+```
 root@MidPC:/home/student/Desktop# nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2019 NVIDIA Corporation
@@ -1572,12 +1572,12 @@ gpu Cmptnroll   elapsed 0.000387 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     900ns         2     450ns     280ns     620ns  cuDeviceGet
                     0.00%     370ns         1     370ns     370ns     370ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
-
+```
 
 ![image](https://github.com/Ramsai1234/PCA-Simple-warp-divergence---Implement-Sum-Reduction./assets/94269989/af2e98d9-6051-4857-9397-0022918ee81f)
 ![image](https://github.com/Ramsai1234/PCA-Simple-warp-divergence---Implement-Sum-Reduction./assets/94269989/446bd28f-089c-4658-9f97-b7bc816d6e71)
 ## kernel reduceUnrolling16:
-
+```
 Password: 
 root@MidPC:/home/student# cd Desktop
 root@MidPC:/home/student/Desktop# nvcc --version
@@ -1646,7 +1646,7 @@ gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%  2.6700us         3     890ns     240ns  2.0700us  cuDeviceGetCount
                     0.00%     300ns         1     300ns     300ns     300ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
-
+```
 
 ![](aa.png)
 ![](bb.png)
