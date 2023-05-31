@@ -30,11 +30,9 @@ Declare Main method/function . In the Main method , set up the device and initia
 Atlast , free the host and device memory then reset the device and check for results.
 
 ### Program:
-```
 Developed By: Manoj Guna Sundar Tella.
 Reg.No: 212221240026.
-```
-```
+
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
