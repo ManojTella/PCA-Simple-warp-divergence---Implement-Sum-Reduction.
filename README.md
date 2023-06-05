@@ -1647,9 +1647,9 @@ gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     300ns         1     300ns     300ns     300ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
 ```
+![image](https://github.com/ManojTella/PCA-Simple-warp-divergence---Implement-Sum-Reduction./assets/94883876/cfbd68d5-4884-4c4b-b8f5-48a48171e6e1)
+![image](https://github.com/ManojTella/PCA-Simple-warp-divergence---Implement-Sum-Reduction./assets/94883876/39516371-8b45-44c0-94da-e85749409b9e)
 
-![](aa.png)
-![](bb.png)
 The time taken by the kernel reduceUnrolling16 is comparatively less to the kernal reduceUnrolling8 as each thread in the kernel reduceUnrolling16 handles 16 data blocks.
 ## Result:
 Implementation of the kernel reduceUnrolling16 is done and the performance of kernal reduceUnrolling16 is comapared with kernal reduceUnrolling8 using proper metrics and events with nvprof.
