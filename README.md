@@ -34,9 +34,9 @@ Atlast , free the host and device memory then reset the device and check for res
 Developed By : Manoj Guna Sundar Tella.
 Reg No : 212221240026.
 ```
-```
-## kernel reduceUnrolling8:
 
+## kernel reduceUnrolling8:
+```
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
